@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/bg"
+    android:background="@drawable/bg2"
 
     tools:context="com.example.muhammet.appathon.MainActivity">
 
@@ -17,6 +17,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="38dp"></LinearLayout>
+        android:layout_marginBottom="38dp">
+
+    </LinearLayout>
+
+    <Button
+        android:layout_height="100dp"
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/mic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
